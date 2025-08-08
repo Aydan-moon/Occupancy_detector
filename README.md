@@ -28,10 +28,6 @@ Supports **interactive visualizations**, **batch predictions**, and **single pre
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🚀 Installation & Setup
@@ -42,17 +38,13 @@ Edit
    cd occupancy-dashboard
 Create a virtual environment (recommended)
 
-bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 Install dependencies
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Ensure model file is available
 Place your trained model in:
@@ -63,15 +55,10 @@ Edit
 models/occupancy_final_model.pkl
 Run the app
 
-bash
-Copy
-Edit
+
 streamlit run app.py
 Open in your browser
-
-arduino
-Copy
-Edit
+z
 http://localhost:8501
 📊 Example CSV Format
 Your CSV should contain sensor readings and optionally a Date and Occupancy column:
@@ -124,17 +111,10 @@ joblib
 
 Install them all:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
-📸 Screenshots
-(Replace these with actual screenshots after running the app)
 
-Main Dashboard View
-
-Single Prediction Sidebar
 
 ✨ Author
 Developed by Aydan
+
 📧 Contact: aydanrzyv@gmail.com
