@@ -40,29 +40,38 @@ Create a virtual environment (recommended)
 
 
 python -m venv venv
+
 source venv/bin/activate   # Mac/Linux
+
 venv\Scripts\activate      # Windows
+
 Install dependencies
 
 
 pip install -r requirements.txt
+
 Ensure model file is available
+
 Place your trained model in:
 
 models/occupancy_final_model.pkl
+
 Run the app
 
 
 streamlit run app.py
+
 Open in your browser
 z
 http://localhost:8501
+
 📊 Example CSV Format
+
 Your CSV should contain sensor readings and optionally a Date and Occupancy column:
 
-Date	Temperature	Light	CO2	HumidityRatio	Occupancy
-2025-08-01	21.5	350.5	420	0.0045	       1
-2025-08-02	22.0	340.2	410	0.0044	       0
+Date	      Temperature	   Light  	CO2	 HumidityRatio	  Occupancy
+2025-08-01	  21.5	      350.5	   420	 0.0045	         1
+2025-08-02	  22.0	      340.2	   410	 0.0044	         0
 
 🖥 How to Use
 Upload your CSV from the sidebar or click "Use Sample Data" to try the dashboard instantly.
@@ -115,5 +124,6 @@ pip install -r requirements.txt
 Developed by Aydan
 
 📧 Contact: aydanrzyv@gmail.com
+
 
 
