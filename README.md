@@ -21,9 +21,9 @@ Supports **interactive visualizations**, **batch predictions**, and **single pre
 ## 📂 Project Structure
 
 
-├ app.py # Streamlit application
-├ models/
-│─ occupancy_final_model.pkl # Pre-trained model (required)
+├── app.py # Streamlit application
+├── models/
+│ └── occupancy_final_model.pkl # Pre-trained model (required)
 ├── Occupancy.ipynb # Jupyter notebook with model training/analysis
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
@@ -61,8 +61,8 @@ http://localhost:8501
 Your CSV should contain sensor readings and optionally a Date and Occupancy column:
 
 Date	Temperature	Light	CO2	HumidityRatio	Occupancy
-2025-08-01	21.5	350.5	420	0.0045	1
-2025-08-02	22.0	340.2	410	0.0044	0
+2025-08-01	21.5	350.5	420	0.0045	       1
+2025-08-02	22.0	340.2	410	0.0044	       0
 
 🖥 How to Use
 Upload your CSV from the sidebar or click "Use Sample Data" to try the dashboard instantly.
@@ -115,4 +115,5 @@ pip install -r requirements.txt
 Developed by Aydan
 
 📧 Contact: aydanrzyv@gmail.com
+
 
