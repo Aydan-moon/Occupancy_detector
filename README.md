@@ -20,10 +20,10 @@ Supports **interactive visualizations**, **batch predictions**, and **single pre
 
 ## 📂 Project Structure
 
-.
-├── app.py # Streamlit application
-├── models/
-│ └── occupancy_final_model.pkl # Pre-trained model (required)
+
+├ app.py # Streamlit application
+├ models/
+│─ occupancy_final_model.pkl # Pre-trained model (required)
 ├── Occupancy.ipynb # Jupyter notebook with model training/analysis
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
@@ -49,9 +49,6 @@ pip install -r requirements.txt
 Ensure model file is available
 Place your trained model in:
 
-bash
-Copy
-Edit
 models/occupancy_final_model.pkl
 Run the app
 
@@ -118,3 +115,4 @@ pip install -r requirements.txt
 Developed by Aydan
 
 📧 Contact: aydanrzyv@gmail.com
+
