@@ -22,10 +22,15 @@ Supports **interactive visualizations**, **batch predictions**, and **single pre
 
 
 ├── app.py # Streamlit application
+
 ├── models/
+
 │ └── occupancy_final_model.pkl # Pre-trained model (required)
+
 ├── Occupancy.ipynb # Jupyter notebook with model training/analysis
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # Project documentation
 
 ---
@@ -62,7 +67,7 @@ Run the app
 streamlit run app.py
 
 Open in your browser
-z
+
 http://localhost:8501
 
 📊 Example CSV Format
@@ -124,6 +129,7 @@ pip install -r requirements.txt
 Developed by Aydan
 
 📧 Contact: aydanrzyv@gmail.com
+
 
 
 
